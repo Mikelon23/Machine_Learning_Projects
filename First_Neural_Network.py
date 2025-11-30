@@ -32,4 +32,9 @@ for epoch in range(epochs):
         inputs = data['inputs']
         target = data['label']
 
+        # A. Forward Pass (The Attempt)
+        # Formula: z = (x1 * w1) + (x2 * w2) + b
+        weighted_sum = (inputs[0] * weights[0]) + (inputs[1] * weights[1]) + bias
+        prediction = activation_function(weighted_sum)
+
         
