@@ -12,3 +12,6 @@ training_data = [
 # 2. The Model Parameters (The Engine)
 # We start with random weights because the machine "knows nothing" yet.
 weights = [random.uniform(-1, 1), random.uniform(-1, 1)]
+bias = random.uniform(-1, 1)
+learning_rate = 0.1 # The size of the "step" we take to correct errors
+
