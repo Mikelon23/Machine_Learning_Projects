@@ -5,4 +5,7 @@ import random
 training_data = [
     {'inputs': [0, 0], 'label': 0},
     {'inputs': [0, 1], 'label': 1},
-    
+    {'inputs': [1, 0], 'label': 1},
+    {'inputs': [1, 1], 'label': 1},
+]
+
