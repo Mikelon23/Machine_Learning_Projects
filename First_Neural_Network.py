@@ -15,3 +15,7 @@ weights = [random.uniform(-1, 1), random.uniform(-1, 1)]
 bias = random.uniform(-1, 1)
 learning_rate = 0.1 # The size of the "step" we take to correct errors
 
+def activation_function(z):
+    """Step function: Fire (1) if z > 0, else Silence (0)"""
+    return 1 if z > 0 else 0
+
