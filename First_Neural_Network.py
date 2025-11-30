@@ -29,4 +29,7 @@ print("-" * 30)
 for epoch in range(epochs):
     total_error = 0
     for data in training_data:
+        inputs = data['inputs']
+        target = data['label']
+
         
