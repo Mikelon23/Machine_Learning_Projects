@@ -24,3 +24,5 @@ epochs = 20 # How many times we iterate through the entire dataset
 
 print(f"Initial Random Weights: {weights}")
 print(f"Initial Random Bias: {bias}")
+print("-" * 30)
+
