@@ -26,3 +26,7 @@ print(f"Initial Random Weights: {weights}")
 print(f"Initial Random Bias: {bias}")
 print("-" * 30)
 
+for epoch in range(epochs):
+    total_error = 0
+    for data in training_data:
+        
