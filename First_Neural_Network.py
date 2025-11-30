@@ -22,3 +22,5 @@ def activation_function(z):
 # 3. The Training Loop (The Learning Process)
 epochs = 20 # How many times we iterate through the entire dataset
 
+print(f"Initial Random Weights: {weights}")
+print(f"Initial Random Bias: {bias}")
