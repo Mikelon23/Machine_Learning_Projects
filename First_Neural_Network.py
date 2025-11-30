@@ -19,3 +19,6 @@ def activation_function(z):
     """Step function: Fire (1) if z > 0, else Silence (0)"""
     return 1 if z > 0 else 0
 
+# 3. The Training Loop (The Learning Process)
+epochs = 20 # How many times we iterate through the entire dataset
+
