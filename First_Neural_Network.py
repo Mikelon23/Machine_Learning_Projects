@@ -9,3 +9,6 @@ training_data = [
     {'inputs': [1, 1], 'label': 1},
 ]
 
+# 2. The Model Parameters (The Engine)
+# We start with random weights because the machine "knows nothing" yet.
+weights = [random.uniform(-1, 1), random.uniform(-1, 1)]
