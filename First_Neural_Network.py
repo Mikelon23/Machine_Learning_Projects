@@ -39,3 +39,4 @@ for epoch in range(epochs):
 
         # B. Calculate Error (The Feedback)
         
+        # B. Calculate Error (The Feedback)
