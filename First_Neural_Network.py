@@ -38,3 +38,5 @@ for epoch in range(epochs):
         prediction = activation_function(weighted_sum)
 
         # B. Calculate Error (The Feedback)
+        
+        # B. Calculate Error (The Feedback)
