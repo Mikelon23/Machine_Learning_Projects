@@ -46,4 +46,8 @@ for epoch in range(epochs):
         # If there is an error, update weights and bias
         # The Perceptron Update Rule: new_w = old_w + (learning_rate * error * input)
         if error != 0:
+            weights[0] += learning_rate * error * inputs[0]
+            weights[1] += learning_rate * error * inputs[1]
+            bias += learning_rate * error # Input for bias is theoretically 1.0
+
             
