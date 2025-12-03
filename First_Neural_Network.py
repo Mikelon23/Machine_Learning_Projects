@@ -50,4 +50,7 @@ for epoch in range(epochs):
             weights[1] += learning_rate * error * inputs[1]
             bias += learning_rate * error # Input for bias is theoretically 1.0
 
-            
+    print(f"Epoch {epoch}: Total Error = {total_error}")
+    
+    # If error is 0, the model has learned the pattern perfectly
+    
