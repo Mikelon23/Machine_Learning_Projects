@@ -42,4 +42,8 @@ for epoch in range(epochs):
         error = target - prediction 
         total_error += abs(error)
 
-        
+        # C. Optimization (The Adjustment)
+        # If there is an error, update weights and bias
+        # The Perceptron Update Rule: new_w = old_w + (learning_rate * error * input)
+        if error != 0:
+            
