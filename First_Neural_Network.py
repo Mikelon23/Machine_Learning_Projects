@@ -38,4 +38,8 @@ for epoch in range(epochs):
         prediction = activation_function(weighted_sum)
 
         # B. Calculate Error (The Feedback)
+        # Error = Expected - Actual
+        error = target - prediction 
+        total_error += abs(error)
+
         
