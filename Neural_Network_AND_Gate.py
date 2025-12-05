@@ -45,4 +45,11 @@ for epoch in range(20):
             weights[1] += learning_rate * error * inputs[1]
             bias += learning_rate * error
 
-            
+    if total_error == 0:
+        print(f"Training Complete! Converged at epoch {epoch}.")
+        print(f"Final Weights: {weights}")
+        print(f"Final Bias: {bias}")
+        break
+    else:
+        print(f"Epoch {epoch}: Error = {total_error}")
+        
