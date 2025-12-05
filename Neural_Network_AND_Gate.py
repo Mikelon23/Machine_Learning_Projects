@@ -14,3 +14,8 @@ training_data = [
     {'inputs': [1, 1], 'label': 1},
 ]
 
+# Re-initialize weights/bias to random
+weights = [random.uniform(-1, 1), random.uniform(-1, 1)]
+bias = random.uniform(-1, 1)
+learning_rate = 0.1
+
