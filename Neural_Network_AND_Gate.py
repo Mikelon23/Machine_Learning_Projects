@@ -22,3 +22,18 @@ learning_rate = 0.1
 def activation_function(z):
     return 1 if z > 0 else 0
 
+print(f"Target: AND Gate Logic")
+print(f"Initial Random Weights: {weights}")
+print("-" * 30)
+
+for epoch in range(20):
+    total_error = 0
+    for data in training_data:
+        inputs = data['inputs']
+        target = data['label']
+        
+        # Forward Pass
+        weighted_sum = (inputs[0] * weights[0]) + (inputs[1] * weights[1]) + bias
+        prediction = activation_function(weighted_sum)
+
+        
