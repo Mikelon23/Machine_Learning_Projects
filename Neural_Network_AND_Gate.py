@@ -19,3 +19,6 @@ weights = [random.uniform(-1, 1), random.uniform(-1, 1)]
 bias = random.uniform(-1, 1)
 learning_rate = 0.1
 
+def activation_function(z):
+    return 1 if z > 0 else 0
+
