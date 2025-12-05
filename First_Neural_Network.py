@@ -53,4 +53,6 @@ for epoch in range(epochs):
     print(f"Epoch {epoch}: Total Error = {total_error}")
     
     # If error is 0, the model has learned the pattern perfectly
-    
+    if total_error == 0:
+        print(f"\nTraining Complete! Converged at epoch {epoch}.")
+        break
