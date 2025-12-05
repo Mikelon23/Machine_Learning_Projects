@@ -56,3 +56,4 @@ for epoch in range(epochs):
     if total_error == 0:
         print(f"\nTraining Complete! Converged at epoch {epoch}.")
         break
+like to run a small experiment with the code first
