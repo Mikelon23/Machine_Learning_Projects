@@ -36,4 +36,13 @@ for epoch in range(20):
         weighted_sum = (inputs[0] * weights[0]) + (inputs[1] * weights[1]) + bias
         prediction = activation_function(weighted_sum)
 
+        # Error & Update
+        error = target - prediction 
+        total_error += abs(error)
         
+        if error != 0:
+            weights[0] += learning_rate * error * inputs[0]
+            weights[1] += learning_rate * error * inputs[1]
+            bias += learning_rate * error
+
+            
