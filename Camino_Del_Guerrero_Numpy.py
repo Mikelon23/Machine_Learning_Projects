@@ -16,3 +16,8 @@ X = np.array([[0, 0],
 # XOR: 0, 1, 1, 0
 y = np.array([[0], [1], [1], [0]])
 
+# ==========================================
+# 2. ARQUITECTURA DE LA RED
+# ==========================================
+# Definimos la Sigmoide y su derivada (para el Backpropagation)
+
