@@ -58,8 +58,3 @@ print("\nVerification (AND Gate):")
 for data in training_data:
     val = (data['inputs'][0] * weights[0]) + (data['inputs'][1] * weights[1]) + bias
     print(f"{data['inputs']} -> {activation_function(val)} (Expected: {data['label']})")
-    data in training_data:
-    val = (data['inputs'][0] * weights[0]) + (data['inputs'][1] * weights[1]) + bias
-    
-
-    print(f"{data['inputs']} -> {activation_function(val)} (Expected: {data['label']})")
